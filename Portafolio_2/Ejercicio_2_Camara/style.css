@@ -1,0 +1,11 @@
+:root { --pwa-primary: #2457a7; --pwa-bg: #f4f7fb; }
+body { background: var(--pwa-bg); min-height: 100vh; }
+.navbar-brand { font-weight: 700; letter-spacing: .2px; }
+.hero { background: linear-gradient(135deg, #173b73, #2d6bc2); color: #fff; border-radius: 1rem; }
+.panel { border: 0; border-radius: 1rem; box-shadow: 0 8px 28px rgba(23, 59, 115, .08); }
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; overflow-wrap: anywhere; }
+.status-dot { display:inline-block; width:.65rem; height:.65rem; border-radius:50%; background:#6c757d; margin-right:.4rem; }
+footer { color:#6c757d; }
+
+video { min-height: 220px; }
+canvas { min-height: 180px; }
